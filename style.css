@@ -96,3 +96,17 @@ a{
     top: -70%;
     left: 0px;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 426px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body img{
+        margin: 20px 0;
+    }
+}
